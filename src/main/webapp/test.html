@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<h2>Calculator</h2>
+
+<form action="" method="post">
+    <label for="x">
+        x : <input type="number" id="x" name="x">
+    </label>
+    <br>
+    <label for="y">
+        y : <input type="number" id="y" name="y">
+    </label>
+    <br>
+    <label for="operation">Operation : </label>
+    <select id="operation" name="operation">
+        <option value="-"> -</option>
+        <option value="+"> +</option>
+        <option value="*"> *</option>
+        <option value="/"> /</option>
+    </select>
+    <br>
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+    <div>
+        Result : <span>%s</span>
+    </div>
+</form>
+</body>
+</html>
